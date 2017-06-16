@@ -1,0 +1,28 @@
+{
+  "name": "casomira",
+  "version": "1.0.0",
+  "description": "Casomira",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build && next export",
+    "dev": "next",
+    "//": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "moment": "^2.18.1",
+    "next": "^3.0.0-beta15",
+    "next-connect-redux": "^0.1.5",
+    "next-redux-wrapper": "^1.1.2",
+    "react": "^15.6.1",
+    "react-count-down": "^1.1.0",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  }
+}
